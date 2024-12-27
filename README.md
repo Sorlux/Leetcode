@@ -12,5 +12,4 @@ This repository contains my solutions to LeetCode problems in both Python and C+
 Focusing on imporivng my basic understanding of various algorithms in both Python and C++ so I can maintain my abilities in both languages.
 
 ## Problems Solved and added to repository
-- [Contains Duplicate]([https://leetcode.com/problems/two-sum/](https://leetcode.com/problems/contains-duplicate/description/)) - Easy
-- [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) - Medium
+- [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) | Easy
