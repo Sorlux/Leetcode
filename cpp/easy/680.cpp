@@ -13,7 +13,7 @@ bool isPalindrome(std::string);
 // If there is ever a difference in the values for the two pointers, then we can increment a counter for the number of changes necessary to be a palindrome
 // If the counter is above one, then you must delete more than one character to make it a palindrome.
 int main(){
-    std::string s = "abca";
+    std::string s = "eedede";
 
     bool result = isPalindrome(s);
     std::cout << result;
@@ -69,8 +69,8 @@ bool isPalindrome(std::string s) {
     output.erase(output.begin() + index);
     length--;
 
-    bool firstCheck;
-    bool secondCheck;
+    bool firstCheck = true;
+    bool secondCheck = true;
 
     for (int i = 0; i < length; i++) {
         if (output[i] != output[output.size() - 1 - i]) {
@@ -79,7 +79,7 @@ bool isPalindrome(std::string s) {
         }
     }
 
-    original.erase(original.end() - 1 - index);
+    original.erase(original.end() - index);
 
     for (int i = 0; i < length; i++) {
         if (original[i] != original[original.size() - 1 - i]) {
